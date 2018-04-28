@@ -267,3 +267,7 @@ defaults:
       comments: # true
       share: true
       related: true
+      
+# Include pages
+
+include: ["_pages"]
