@@ -1,12 +1,12 @@
 # main links
 main:
   - title: "About"
-    url: //about/
+    url: /about/
   - title: "Contributing"
-    url: //contributing/
+    url: /contributing/
   - title: "Documentation"
-    url: //documentation/
+    url: /documentation/
   - title: "Downloads"
-    url: //downloads/
+    url: /downloads/
     #- title: "Sitemap"
     #url: /sitemap/
