@@ -1,12 +1,12 @@
 # main links
 main:
   - title: "About"
-    url: https://oliwiakaz.github.io/about/
+    url: //about/
   - title: "Contributing"
-    url: https://oliwiakaz.github.io/contributing/
+    url: //contributing/
   - title: "Documentation"
-    url: https://oliwiakaz.github.io/documentation/
+    url: //documentation/
   - title: "Downloads"
-    url: https://oliwiakaz.github.io/downloads/
+    url: //downloads/
     #- title: "Sitemap"
     #url: /sitemap/
