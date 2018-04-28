@@ -267,7 +267,10 @@ defaults:
       comments: # true
       share: true
       related: true
-      
-# Include pages
-
-include: ["_pages"]
+   defaults:
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
