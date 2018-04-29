@@ -112,7 +112,7 @@ OutPLSQL:
 
 # documentation links
 utPLSQL:
-  - title: Release History
+  - title: Release
     children:
       - title: "v3.1.0"
         url: /utPLSQL/v3.1.0-develop/
