@@ -12,7 +12,7 @@ main:
     #url: /sitemap/
 
 # documentation links
-utPLSQL:
+OutPLSQL:
   - title: v3.1.0 Documentation
     children:
       - title: "v3.1.0"
@@ -108,4 +108,25 @@ utPLSQL:
       - title: "Reporting"
         url: /utPLSQL/v2.3.1/
       - title: "Cheat Sheet"
+        url: /utPLSQL/v2.3.1/
+
+# documentation links
+utPLSQL:
+  - title: Documentation
+    children:
+      - title: "v3.1.0"
+        url: /utPLSQL/v3.1.0-develop/
+      - title: "v3.0.4"
+        url: /utPLSQL/v3.0.4/
+      - title: "v3.0.3"
+        url: /utPLSQL/v3.0.3/
+      - title: "v3.0.2"
+        url: /utPLSQL/v3.0.2/
+      - title: "v3.0.1"
+        url: /utPLSQL/v3.0.1/
+      - title: "v3.0.0"
+        url: /utPLSQL/v3.0.0/        
+      - title: "v3.0.0-beta"
+        url: /utPLSQL/v3.0.0-beta/
+      - title: "v2.3.1"
         url: /utPLSQL/v2.3.1/
