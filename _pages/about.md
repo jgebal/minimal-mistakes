@@ -21,4 +21,4 @@ It allow for automated testing of:
 
 utPLSQL was originally developed by [Steven Feuerstein](http://stevenfeuerstein.com/) and is now maintained by active team of developers.
 
-Feel free to [try it out](/downloads) you won't regret it.   Additional information can be found in the [documentation](/documentation)
+Feel free to [try it out](/downloads/) you won't regret it.   Additional information can be found in the [documentation](/documentation/)
