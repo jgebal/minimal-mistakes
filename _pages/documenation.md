@@ -25,4 +25,3 @@ Each downloadable release also contains a "docs" folder with complete documentat
 - [v3.0.0 documentation](utPLSQL/v3.0.0/) - Created 18 May 2017 - 06:52:00 PM
 - [v3.0.0-beta documentation](utPLSQL/v3.0.0-beta/) - Created 30 Mar 2017 - 08:44:00 PM
 - [v2.3.1 documentation](utPLSQL/v2.3.1/) - Created 07 Jul 2016 - 04:22:00 PM
-
