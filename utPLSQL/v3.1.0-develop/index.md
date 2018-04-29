@@ -3,7 +3,7 @@ title: "Introduction to utPLSQL"
 layout: single
 author_profile: false
 sidebar:
-  nav: "NewUtPLSQL"
+  nav: "release"
 ---
 
 utPLSQL is a Unit Testing framework for Oracle PL/SQL.
