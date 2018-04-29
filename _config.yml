@@ -274,3 +274,15 @@ defaults:
     values:
       layout: single
       author_profile: false
+# _utPLSQL
+  - scope:
+      path: ""
+      type: utPLSQL
+    values:
+      layout: single
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
+      sidebar:
+        nav: "utPLSQL"
