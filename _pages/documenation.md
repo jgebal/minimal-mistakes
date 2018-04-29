@@ -1,6 +1,7 @@
 ---
 layout: single
 title: Documentation
+author_profile: false
 permalink: /documentation/
 ---
 
