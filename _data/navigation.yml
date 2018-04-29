@@ -137,7 +137,7 @@ NewUtPLSQL:
     children:
       - title: "v3.1.0"
         url: /utPLSQL/v3.1.0-develop/
-        children:
+        subchildren:
         - title: "v3.1.0"
           url: /utPLSQL/v3.1.0-develop/
         - title: "About"
