@@ -1,6 +1,7 @@
 ---
 layout: single
 title: Contributing
+author_profile: false
 permalink: /contributing/
 ---
 
