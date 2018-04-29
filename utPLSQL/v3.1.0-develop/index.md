@@ -1,10 +1,8 @@
 ---
 layout: single
-title: v3.1.0-develop
 author_profile: false
 sidebar:
   nav: "utPLSQL"
-permalink: /utPLSQL/v3.1.0-develop/
 ---
 # Introduction to utPLSQL
 
