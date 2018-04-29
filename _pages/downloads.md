@@ -1,6 +1,7 @@
 ---
 layout: single
 title: Downloads
+author_profile: false
 permalink: /downloads/
 ---
 
