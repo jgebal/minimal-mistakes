@@ -133,9 +133,9 @@ MutPLSQL:
         
 # release links
 release:
-- title: ""
+- title: "v3.0.1"
   children:
-    - title: "Release"
+    - title: "Main"
       url: ../
     - title: "About"
       url: ../about/
