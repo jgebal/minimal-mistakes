@@ -3,7 +3,7 @@ layout: single
 title: Documentation
 author_profile: false
 sidebar:
-  title: "Release"
+  title: "RELEASE"
   nav: "utPLSQL"
 permalink: /documentation/
 ---
