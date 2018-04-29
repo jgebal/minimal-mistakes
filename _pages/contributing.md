@@ -11,4 +11,4 @@ utPLSQL project team is always willing to work with the community.
 - Contribute to and learn from the [wiki](https://github.com/utPLSQL/utPLSQL/wiki).
 - [Make and submit changes](https://github.com/utPLSQL/utPLSQL/blob/master/CONTRIBUTING.md) to the code base.
 
-You can find the source code for the utpsql on GitHub:
+You can find the source code for the utpsql on GitHub: {% include icon-github.html username="utplsql" %}
