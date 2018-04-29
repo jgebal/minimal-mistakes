@@ -133,18 +133,18 @@ MutPLSQL:
         
 # release links
 release:
-- title: ""
+- title: "v3.1.0"
   children:
-    - title: "Release"
-      url: ../
+    - title: "Main"
+      url: /utPLSQL/v3.1.0-develop/
     - title: "About"
-      url: ../about/
+      url: /utPLSQL/v3.1.0-develop/about/
     - title: "User guide"
-      url: ../userguide/
+      url: /utPLSQL/v3.1.0-develop/userguide/
     - title: "Reporting"
-      url: ../reporting/
+      url: /utPLSQL/v3.1.0-develop/reporting/
     - title: "Cheat Sheet"
-      url: ../cheat_sheet/
+      url: /utPLSQL/v3.1.0-develop/cheat_sheet/
 
 # documentation links
 utPLSQL:
