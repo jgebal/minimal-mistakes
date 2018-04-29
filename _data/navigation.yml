@@ -13,57 +13,100 @@ main:
 
 # documentation links
 utPLSQL:
-  - title: Getting Started
+
+- title: v3.1.0 Documentation
     children:
-      - title: "Quick-Start Guide"
-        url: /utPLSQL/quick-start-guide/
-      - title: "Structure"
-        url: /utPLSQL/structure/
-      - title: "Installation"
-        url: /utPLSQL/installation/
-      - title: "Upgrading"
-        url: /utPLSQL/upgrading/
-  - title: Customization
+      - title: "v3.1.0"
+        url: /utPLSQL/v3.1.0-develop/
+      - title: "About"
+        url: /utPLSQL/v3.1.0-develop/about/
+      - title: "User guide"
+        url: /utPLSQL/v3.1.0-develop/userguide/
+      - title: "Reporting"
+        url: /utPLSQL/v3.1.0-develop/
+      - title: "Cheat Sheet"
+        url: /utPLSQL/v3.1.0-develop/
+  - title: v3.0.4 Documentation
     children:
-      - title: "Configuration"
-        url: /utPLSQL/configuration/
-      - title: "Overriding Theme Defaults"
-        url: /utPLSQL/overriding-theme-defaults/
-      - title: "Navigation"
-        url: /utPLSQL/navigation/
-      - title: "UI Text"
-        url: /utPLSQL/ui-text/
-      - title: "Authors"
-        url: /utPLSQL/authors/
-      - title: "Layouts"
-        url: /utPLSQL/layouts/
-  - title: Content
+      - title: "v3.0.4"
+        url: /utPLSQL/v3.0.4/
+      - title: "About"
+        url: /utPLSQL/v3.0.4/about/
+      - title: "User Guide"
+        url: /utPLSQL/v3.0.4/userguide/
+      - title: "Reporting"
+        url: /utPLSQL/v3.0.4/
+      - title: "Cheat Sheet"
+        url: /utPLSQL/v3.0.4/
+  - title: v3.0.3 Documentation
     children:
-      - title: "Working with Posts"
-        url: /utPLSQL/posts/
-      - title: "Working with Pages"
-        url: /utPLSQL/pages/
-      - title: "Working with Collections"
-        url: /utPLSQL/collections/
-      - title: "Helpers"
-        url: /utPLSQL/helpers/
-      - title: "Utility Classes"
-        url: /utPLSQL/utility-classes/
-  - title: Extras
+       - title: "v3.0.3"
+        url: /utPLSQL/v3.0.3/
+      - title: "About"
+        url: /utPLSQL/v3.0.3/about/
+      - title: "User Guide"
+        url: /utPLSQL/v3.0.3/userguide/
+      - title: "Reporting"
+        url: /utPLSQL/v3.0.3/
+      - title: "Cheat Sheet"
+        url: /utPLSQL/v3.0.3/
+  - title: v3.0.2 Documentation
     children:
-      - title: "Stylesheets"
-        url: /utPLSQL/stylesheets/
-      - title: "JavaScript"
-        url: /utPLSQL/javascript/
-  - title: Meta
+      - title: "v3.0.2"
+        url: /utPLSQL/v3.0.2/
+      - title: "About"
+        url: /utPLSQL/v3.0.2/about/
+      - title: "User Guide"
+        url: /utPLSQL/v3.0.2/userguide/
+      - title: "Reporting"
+        url: /utPLSQL/v3.0.2/
+      - title: "Cheat Sheet"
+        url: /utPLSQL/v3.0.2/
+  - title: v3.0.1 Documentation
     children:
-      - title: "History"
-        url: /utPLSQL/history/
-      - title: "Contributing"
-        url: /utPLSQL/contributing/
-      - title: "Old 2.2 Docs"
-        url: /utPLSQL/docs-2-2/
-      - title: "License"
-        url: /utPLSQL/license/
-      - title: "Terms &amp; Privacy Policy"
-        url: /utPLSQL/
+      - title: "v3.0.1"
+        url: /utPLSQL/v3.0.1/
+      - title: "About"
+        url: /utPLSQL/v3.0.1/about/
+      - title: "User Guide"
+        url: /utPLSQL/v3.0.1/userguide/
+      - title: "Reporting"
+        url: /utPLSQL/v3.0.1/
+      - title: "Cheat Sheet"
+        url: /utPLSQL/v3.0.1/
+  - title: v3.0.0 Documentation
+    children:
+      - title: "v3.0.0"
+        url: /utPLSQL/v3.0.0/
+      - title: "About"
+        url: /utPLSQL/v3.0.0/about/
+      - title: "User Guide"
+        url: /utPLSQL/v3.0.0/userguide/
+      - title: "Reporting"
+        url: /utPLSQL/v3.0.0/
+      - title: "Cheat Sheet"
+        url: /utPLSQL/v3.0.0/      
+  - title: v3.0.0-beta Documentation
+    children:
+      - title: "v3.0.0-beta"
+        url: /utPLSQL/v3.0.0-beta/
+      - title: "About"
+        url: /utPLSQL/v3.0.0-beta/about/
+      - title: "User Guide"
+        url: /utPLSQL/v3.0.0-beta/userguide/
+      - title: "Reporting"
+        url: /utPLSQL/v3.0.0-beta/
+      - title: "Cheat Sheet"
+        url: /utPLSQL/v3.0.0-beta/    
+  - title: v2.3.1 Documentation
+    children:
+       - title: "v2.3.1"
+        url: /utPLSQL/v2.3.1/
+      - title: "About"
+        url: /utPLSQL/v2.3.1/about/
+      - title: "User Guide"
+        url: /utPLSQL/v2.3.1/userguide/
+      - title: "Reporting"
+        url: /utPLSQL/v2.3.1/
+      - title: "Cheat Sheet"
+        url: /utPLSQL/v2.3.1/
