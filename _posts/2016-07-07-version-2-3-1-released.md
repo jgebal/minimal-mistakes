@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Version 2.3.1 has been released."
 date:   2016-07-07 10:00:00 -0600
 categories: moving
