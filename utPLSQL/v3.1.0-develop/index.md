@@ -4,6 +4,7 @@ layout: single
 author_profile: false
 sidebar:
   nav: "utPLSQL"
+  nav: "OutPLSQL"
 ---
 
 utPLSQL is a Unit Testing framework for Oracle PL/SQL.
