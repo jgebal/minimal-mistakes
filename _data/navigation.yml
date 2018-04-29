@@ -16,54 +16,54 @@ utPLSQL:
   - title: Getting Started
     children:
       - title: "Quick-Start Guide"
-        url: /docs/quick-start-guide/
+        url: /utPLSQL/quick-start-guide/
       - title: "Structure"
-        url: /docs/structure/
+        url: /utPLSQL/structure/
       - title: "Installation"
-        url: /docs/installation/
+        url: /utPLSQL/installation/
       - title: "Upgrading"
-        url: /docs/upgrading/
+        url: /utPLSQL/upgrading/
   - title: Customization
     children:
       - title: "Configuration"
-        url: /docs/configuration/
+        url: /utPLSQL/configuration/
       - title: "Overriding Theme Defaults"
-        url: /docs/overriding-theme-defaults/
+        url: /utPLSQL/overriding-theme-defaults/
       - title: "Navigation"
-        url: /docs/navigation/
+        url: /utPLSQL/navigation/
       - title: "UI Text"
-        url: /docs/ui-text/
+        url: /utPLSQL/ui-text/
       - title: "Authors"
-        url: /docs/authors/
+        url: /utPLSQL/authors/
       - title: "Layouts"
-        url: /docs/layouts/
+        url: /utPLSQL/layouts/
   - title: Content
     children:
       - title: "Working with Posts"
-        url: /docs/posts/
+        url: /utPLSQL/posts/
       - title: "Working with Pages"
-        url: /docs/pages/
+        url: /utPLSQL/pages/
       - title: "Working with Collections"
-        url: /docs/collections/
+        url: /utPLSQL/collections/
       - title: "Helpers"
-        url: /docs/helpers/
+        url: /utPLSQL/helpers/
       - title: "Utility Classes"
-        url: /docs/utility-classes/
+        url: /utPLSQL/utility-classes/
   - title: Extras
     children:
       - title: "Stylesheets"
-        url: /docs/stylesheets/
+        url: /utPLSQL/stylesheets/
       - title: "JavaScript"
-        url: /docs/javascript/
+        url: /utPLSQL/javascript/
   - title: Meta
     children:
       - title: "History"
-        url: /docs/history/
+        url: /utPLSQL/history/
       - title: "Contributing"
-        url: /docs/contributing/
+        url: /utPLSQL/contributing/
       - title: "Old 2.2 Docs"
-        url: /docs/docs-2-2/
+        url: /utPLSQL/docs-2-2/
       - title: "License"
-        url: /docs/license/
+        url: /utPLSQL/license/
       - title: "Terms &amp; Privacy Policy"
-        url: /terms/
+        url: /utPLSQL/
