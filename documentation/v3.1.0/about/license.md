@@ -1,3 +1,11 @@
+---
+title: "License"
+layout: single
+author_profile: false
+sidebar:
+  nav: "v3.1.0"
+---
+
 # Version Information
 
 **utPLSQL version 3** is licensed under 
