@@ -14,36 +14,36 @@ main:
 # v3.1.0 release doc links
 v3.1.0:
   - title: "Introduction"
-    url: ../
+    url: /../
   - title: "About"
-    url: ../about/
+    url: /../about/
     children:
       - title: "Project details"
-        url: ../about/project-details/
+        url: /../about/project-details/
       - title: "License"
-        url: ../about/license/
+        url: /../about/license/
       - title: "Support"
-        url: ../about/support/
+        url: /../about/support/
       - title: "Authors"
-        url: ../about/authors/
+        url: /../about/authors/
   - title: "User guide"
     children:
       - title: "Installation"
-        url: ../userguide/install/
+        url: /../userguide/install/
       - title: "Getting started"
-        url: ../userguide/getting-started/
+        url: /../userguide/getting-started/
       - title: "Annotations"
-        url: ../userguide/annotations/
+        url: /../userguide/annotations/
       - title: "Expectations"
-        url: ../userguide/expectations/
+        url: /../userguide/expectations/
       - title: "Advanced data comparison"
-        url: ../userguide/advanced_data_comparison/
+        url: /../userguide/advanced_data_comparison/
       - title: "Running unit tests"
-        url: ../userguide/running-unit-tests/
+        url: /../userguide/running-unit-tests/
       - title: "Testing best practices"
-        url: ../userguide/best-practices/
+        url: /../userguide/best-practices/
       - title: "Upgrade utPLSQL"
-        url: ../userguide/upgrade/
+        url: /../userguide/upgrade/
   - title: "Reporting"
     url: /documentation/v3.1.0/reporting/
     children:
