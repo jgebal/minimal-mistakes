@@ -8,26 +8,6 @@ sidebar:
 
 utPLSQL is a Unit Testing framework for Oracle PL/SQL.
 The framework follows industry standards and best patterns of modern Unit Testing frameworks like [JUnit](http://junit.org/junit4/) and [RSpec](http://rspec.info/)
-
-  - User Guide
-       - [Installation](userguide/install.md)
-       - [Getting Started](userguide/getting-started.md)
-       - [Annotations](userguide/annotations.md)
-       - [Expectations](userguide/expectations.md)
-       - [Advanced data comparison](userguide/advanced_data_comparison.md)
-       - [Running unit tests](userguide/running-unit-tests.md)
-       - [Testing best pracitces](userguide/best-practices.md)
-       - [Upgrade utPLSQL](userguide/upgrade.md)
-  - Reporting
-       - [Using reporters](userguide/reporters.md)
-       - [Reporting errors](userguide/exception-reporting.md)
-       - [Code coverage](userguide/coverage.md)
-  - [Cheat-sheet](https://www.cheatography.com/jgebal/cheat-sheets/utplsql-v3/#downloads)
-  - About
-       - [Project Details](about/project-details.md)
-       - [License](about/license.md)
-       - [Support](about/support.md)
-       - [Authors](about/authors.md)
        
 # Demo project
 
@@ -48,7 +28,6 @@ Here is how you can simply create tested code, unit tests and execute the tests 
 ![3_steps](images/3_steps_to_run_utPLSQL.gif)
 
 Check out the sections on [annotations](userguide/annotations.md) and [expectations](userguide/expectations.md) to see how to define your tests.  
-
 
 # Command line
 
