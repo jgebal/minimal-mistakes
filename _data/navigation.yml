@@ -2,14 +2,14 @@
 main:
   - title: "About"
     url: /about/
-  - title: "Contributing"
-    url: /contributing/
   - title: "Documentation"
     url: /documentation/
   - title: "Downloads"
     url: /downloads/
-    #- title: "Sitemap"
-    #url: /sitemap/
+  - title: "Announcements"
+    url: /announcements/
+  - title: "Contributing"
+    url: /contributing/
         
 # v3.1.0 release doc links
 v3.1.0:
