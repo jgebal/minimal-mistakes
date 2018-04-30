@@ -14,46 +14,46 @@ main:
 # v3.1.0 release doc links
 v3.1.0:
   - title: "Introduction"
-    url: /../
+    url: /documentation/v3.1.0/
   - title: "About"
-    url: /../about/
+    url: /documentation/v3.1.0/about/
     children:
       - title: "Project details"
-        url: /documentation/../about/project-details/
+        url: /documentation/v3.1.0/about/project-details/
       - title: "License"
         url: /documentation/v3.1.0/about/license/
       - title: "Support"
-        url: /../about/support/
+        url: /documentation/v3.1.0/about/support/
       - title: "Authors"
-        url: /../about/authors/
+        url: /documentation/v3.1.0/about/authors/
   - title: "User guide"
     children:
       - title: "Installation"
-        url: /../userguide/install/
+        url: /documentation/v3.1.0/userguide/install/
       - title: "Getting started"
-        url: /../userguide/getting-started/
+        url: /documentation/v3.1.0/userguide/getting-started/
       - title: "Annotations"
-        url: /../userguide/annotations/
+        url: /documentation/v3.1.0/userguide/annotations/
       - title: "Expectations"
-        url: /../userguide/expectations/
+        url: /documentation/v3.1.0/userguide/expectations/
       - title: "Advanced data comparison"
-        url: /../userguide/advanced_data_comparison/
+        url: /documentation/v3.1.0/userguide/advanced_data_comparison/
       - title: "Running unit tests"
-        url: /../userguide/running-unit-tests/
+        url: /documentation/v3.1.0/userguide/running-unit-tests/
       - title: "Testing best practices"
-        url: /../userguide/best-practices/
+        url: /documentation/v3.1.0/userguide/best-practices/
       - title: "Upgrade utPLSQL"
-        url: /../userguide/upgrade/
+        url: /documentation/v3.1.0/userguide/upgrade/
   - title: "Reporting"
     children:
       - title: "Using reporters"
-        url: /userguide/reporters/
+        url: /documentation/v3.1.0/userguide/reporters/
       - title: "Reporting errors"
-        url: /userguide/exception-reporting/
+        url: /documentation/v3.1.0/userguide/exception-reporting/
       - title: "Code coverage"
-        url: /userguide/coverage/  
+        url: /documentation/v3.1.0/userguide/coverage/  
   - title: "Cheat Sheet"
-    url: /documentation/v3.1.0/cheat_sheet/
+    url: /documentation/v3.1.0/documentation/v3.1.0/cheat_sheet/
 
 # documentation links
 utPLSQL:
