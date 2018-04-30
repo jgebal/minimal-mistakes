@@ -274,3 +274,12 @@ defaults:
     values:
       layout: single
       author_profile: false
+
+# Collections
+collections:
+  docs:
+    output: true
+    permalink: /:collection/:path/
+  announcements:
+    output: true
+    permalink: /:collection/:path/
