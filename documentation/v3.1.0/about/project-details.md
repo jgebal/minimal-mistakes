@@ -1,3 +1,11 @@
+---
+title: "Project Details"
+layout: single
+author_profile: false
+sidebar:
+  nav: "v3.1.0"
+---
+
 # utPLSQL Project Details
 
 [![chat](http://img.shields.io/badge/GitHub_Project-Active-blue.svg)](https://github.com/utPLSQL/utPLSQL)
