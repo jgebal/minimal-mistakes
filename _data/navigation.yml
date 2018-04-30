@@ -45,14 +45,13 @@ v3.1.0:
       - title: "Upgrade utPLSQL"
         url: /../userguide/upgrade/
   - title: "Reporting"
-    url: /documentation/v3.1.0/reporting/
     children:
       - title: "Using reporters"
-        url: /documentation/v3.1.0/
+        url: /userguide/reporters/
       - title: "Reporting errors"
-        url: /documentation/v3.1.0/
+        url: /userguide/exception-reporting/
       - title: "Code coverage"
-        url: /documentation/v3.1.0/  
+        url: /userguide/coverage/  
   - title: "Cheat Sheet"
     url: /documentation/v3.1.0/cheat_sheet/
 
