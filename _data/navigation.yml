@@ -133,18 +133,48 @@ MutPLSQL:
         
 # release links
 v3.1.0:
-- title: "v3.1.0"
-  children:
-    - title: "Introduction"
-      url: /utPLSQL/v3.1.0-develop/
-    - title: "About"
-      url: /utPLSQL/v3.1.0-develop/about/
-    - title: "User guide"
-      url: /utPLSQL/v3.1.0-develop/userguide/
-    - title: "Reporting"
-      url: /utPLSQL/v3.1.0-develop/reporting/
-    - title: "Cheat Sheet"
-      url: /utPLSQL/v3.1.0-develop/cheat_sheet/
+  - title: "Introduction"
+    url: /documentation/v3.1.0/
+  - title: "About"
+    url: /documentation/v3.1.0/about/
+      - title: "Project details"
+        url: /documentation/v3.1.0/
+      - title: "License"
+        url: /documentation/v3.1.0/
+      - title: "Support"
+        url: /documentation/v3.1.0/
+      - title: "Authors"
+        url: /documentation/v3.1.0/
+  - title: "User guide"
+    url: /utPLSQL/v3.1.0-develop/userguide/
+    children:
+      - title: "Installation"
+        url: /documentation/v3.1.0/
+      - title: "Getting started"
+        url: /documentation/v3.1.0/
+      - title: "Annotations"
+        url: /documentation/v3.1.0/
+      - title: "Expectations"
+        url: /documentation/v3.1.0/
+      - title: "Advanced data comparison"
+        url: /documentation/v3.1.0/
+      - title: "Running unit tests"
+        url: /documentation/v3.1.0/
+      - title: "Testing best practices"
+        url: /documentation/v3.1.0/
+      - title: "Upgrade utPLSQL"
+        url: /documentation/v3.1.0/
+  - title: "Reporting"
+    url: /documentation/v3.1.0/reporting/
+      children:
+      - title: "Using reporters"
+        url: /documentation/v3.1.0/
+      - title: "Reporting errors"
+        url: /documentation/v3.1.0/
+      - title: "Code coverage"
+        url: /documentation/v3.1.0/  
+  - title: "Cheat Sheet"
+    url: /documentation/v3.1.0/cheat_sheet/
 
 # documentation links
 utPLSQL:
