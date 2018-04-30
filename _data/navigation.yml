@@ -11,7 +11,7 @@ main:
     #- title: "Sitemap"
     #url: /sitemap/
         
-# release doc links
+# v3.1.0 release doc links
 v3.1.0:
   - title: "Introduction"
     url: /documentation/v3.1.0/
