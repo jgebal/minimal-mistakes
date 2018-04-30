@@ -137,6 +137,7 @@ v3.1.0:
     url: /documentation/v3.1.0/
   - title: "About"
     url: /documentation/v3.1.0/about/
+    children:
       - title: "Project details"
         url: /documentation/v3.1.0/
       - title: "License"
