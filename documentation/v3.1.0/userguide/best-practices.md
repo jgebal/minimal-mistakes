@@ -1,3 +1,11 @@
+---
+title: "Best Practice"
+layout: single
+author_profile: false
+sidebar:
+  nav: "v3.1.0"
+---
+
 # Best Practices
 
 The following are best practices we at utPLSQL have learned about PL/SQL and Unit Testing. 
