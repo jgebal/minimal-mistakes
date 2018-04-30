@@ -19,9 +19,9 @@ v3.1.0:
     url: /../about/
     children:
       - title: "Project details"
-        url: /../about/project-details/
+        url: /documentation/../about/project-details/
       - title: "License"
-        url: /../about/license/
+        url: /documentation/v3.1.0/about/license/
       - title: "Support"
         url: /../about/support/
       - title: "Authors"
