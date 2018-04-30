@@ -1,4 +1,3 @@
 ---
-title: "Announcements"
 layout: home
 ---
