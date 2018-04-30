@@ -1,3 +1,11 @@
+---
+title: "Using Reporters"
+layout: single
+author_profile: false
+sidebar:
+  nav: "v3.1.0"
+---
+
 utPLSQL provides the following reporting formats.
 
 # Documentation reporter
