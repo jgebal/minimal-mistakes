@@ -14,23 +14,22 @@ main:
 # v3.1.0 release doc links
 v3.1.0:
   - title: "Introduction"
-    url: /documentation/v3.1.0/
+    url: /
   - title: "About"
-    url: /documentation/v3.1.0/about/
+    url: /about/
     children:
       - title: "Project details"
-        url: /documentation/v3.1.0/
+        url: /about/project-details/
       - title: "License"
-        url: /documentation/v3.1.0/
+        url: /about/license/
       - title: "Support"
-        url: /documentation/v3.1.0/
+        url: /about/support/
       - title: "Authors"
-        url: /documentation/v3.1.0/
+        url: /about/authors/
   - title: "User guide"
-    url: /utPLSQL/v3.1.0-develop/userguide/
     children:
       - title: "Installation"
-        url: /documentation/v3.1.0/
+        url: /userguide/install/
       - title: "Getting started"
         url: /documentation/v3.1.0/
       - title: "Annotations"
