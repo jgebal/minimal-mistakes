@@ -31,19 +31,19 @@ v3.1.0:
       - title: "Installation"
         url: ../userguide/install/
       - title: "Getting started"
-        url: /documentation/v3.1.0/
+        url: ../userguide/getting-started/
       - title: "Annotations"
-        url: /documentation/v3.1.0/
+        url: ../userguide/annotations/
       - title: "Expectations"
-        url: /documentation/v3.1.0/
+        url: ../userguide/expectations/
       - title: "Advanced data comparison"
-        url: /documentation/v3.1.0/
+        url: ../userguide/advanced_data_comparison/
       - title: "Running unit tests"
-        url: /documentation/v3.1.0/
+        url: ../userguide/running-unit-tests/
       - title: "Testing best practices"
-        url: /documentation/v3.1.0/
+        url: ../userguide/best-practices/
       - title: "Upgrade utPLSQL"
-        url: /documentation/v3.1.0/
+        url: ../userguide/upgrade/
   - title: "Reporting"
     url: /documentation/v3.1.0/reporting/
     children:
