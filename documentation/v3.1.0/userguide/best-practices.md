@@ -1,5 +1,5 @@
 ---
-title: "Best Practice"
+title: "Best Practices"
 layout: single
 author_profile: false
 sidebar:
