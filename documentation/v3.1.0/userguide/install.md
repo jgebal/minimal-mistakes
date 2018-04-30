@@ -1,3 +1,11 @@
+---
+title: "Installation"
+layout: single
+author_profile: false
+sidebar:
+  nav: "v3.1.0"
+---
+
 # Downloading latest version of utPLSQL
 
 To download latest version of utPLSQL from github on both Unix/Linux as well as Windows machines use the below smippets.
