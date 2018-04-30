@@ -167,7 +167,7 @@ v3.1.0:
         url: /documentation/v3.1.0/
   - title: "Reporting"
     url: /documentation/v3.1.0/reporting/
-      children:
+    children:
       - title: "Using reporters"
         url: /documentation/v3.1.0/
       - title: "Reporting errors"
