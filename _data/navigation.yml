@@ -14,7 +14,7 @@ main:
 # v3.1.0 release doc links
 v3.1.0:
   - title: "Introduction"
-    url: /documentation/v3.1.0/
+    url: /documentation/v3.1.0/introduction/
   - title: "About"
     url: /documentation/v3.1.0/about/
     children:
