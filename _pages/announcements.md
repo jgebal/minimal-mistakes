@@ -1,6 +1,6 @@
 ---
 title: "Announcements"
-layout: posts
+layout: archive
 permalink: /announcements/
 author_profile: false
 ---
