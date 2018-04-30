@@ -1,3 +1,11 @@
+---
+title: "Upgrade utPLSQL"
+layout: single
+author_profile: false
+sidebar:
+  nav: "v3.1.0"
+---
+
 # Upgrading from version 2
 
 utPLSQL v3 is a total rewrite of the framework.
