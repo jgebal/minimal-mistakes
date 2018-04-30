@@ -1,3 +1,11 @@
+---
+title: "Annotations"
+layout: single
+author_profile: false
+sidebar:
+  nav: "v3.1.0"
+---
+
 # Annotations
 
 Annotations are used to configure tests and suites in a declarative way similar to modern OOP languages. This way, test configuration is stored along with the test logic inside the test package.
