@@ -15,6 +15,8 @@ main:
 v3.1.0:
   - title: "Introduction"
     url: /documentation/v3.1.0/
+  - title: "Introduction test"
+    url: /documentation/v3.1.0/introduction/
   - title: "About"
     children:
       - title: "Project details"
