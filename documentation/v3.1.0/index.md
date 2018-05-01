@@ -1,7 +1,6 @@
 ---
 title: "Introduction to utPLSQL"
 layout: single
-permalink: /introduction/
 author_profile: false
 sidebar:
   nav: "v3.1.0"
