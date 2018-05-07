@@ -1,4 +1,12 @@
-# Version Information
+---
+title: "License"
+layout: single
+author_profile: false
+sidebar:
+  nav: "v3.0.4"
+---
+
+### Version Information
 
 **utPLSQL version 3** is licensed under 
 [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0)
