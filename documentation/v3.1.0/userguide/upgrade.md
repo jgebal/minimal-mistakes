@@ -6,7 +6,7 @@ sidebar:
   nav: "v3.1.0"
 ---
 
-# Upgrading from version 2
+## Upgrading from version 2
 
 utPLSQL v3 is a total rewrite of the framework.
 To make utPLSQL v2 packages run on v3 framework you need to install and execute migration utility.
