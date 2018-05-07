@@ -6,7 +6,7 @@ sidebar:
   nav: "v3.1.0"
 ---
 
-# Version Information
+## Version Information
 
 **utPLSQL version 3** is licensed under 
 [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0)
