@@ -6,8 +6,6 @@ sidebar:
   nav: "v3.1.0"
 ---
 
-# Advanced data comparison
-
 utPLSQL expectations incorporates advanced data comparison options when comparing compound data-types:
 
 - refcursor
