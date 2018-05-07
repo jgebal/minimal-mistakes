@@ -6,8 +6,6 @@ sidebar:
   nav: "v3.1.0"
 ---
 
-# Best Practices
-
 The following are best practices we at utPLSQL have learned about PL/SQL and Unit Testing. 
 
 ## Test Isolation and Dependency
