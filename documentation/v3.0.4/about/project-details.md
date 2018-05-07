@@ -1,4 +1,10 @@
-# utPLSQL Project Details
+---
+title: "Project Details"
+layout: single
+author_profile: false
+sidebar:
+  nav: "v3.0.4"
+---
 
 [![chat](http://img.shields.io/badge/GitHub_Project-Active-blue.svg)](https://github.com/utPLSQL/utPLSQL)
 [![license](http://img.shields.io/badge/license-apache%202.0-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)
