@@ -9,13 +9,13 @@ sidebar:
 utPLSQL is a Unit Testing framework for Oracle PL/SQL.
 The framework follows industry standards and best patterns of modern Unit Testing frameworks like [JUnit](http://junit.org/junit4/) and [RSpec](http://rspec.info/)
        
-# Demo project
+## Demo project
 
 Have a look at our [demo project](https://github.com/utPLSQL/utPLSQL-demo-project/).
 
 It uses [Travis CI](https://travis-ci.org/utPLSQL/utPLSQL-demo-project) to build on every commit, runs all tests, publishes test results and code coverage to [SonarQube](https://sonarqube.com/dashboard?id=utPLSQL%3AutPLSQL-demo-project%3Adevelop).
 
-# Three steps
+## Three steps
 
 With just three simple steps you can define and run your unit tests for PLSQL code.
  
@@ -29,7 +29,7 @@ Here is how you can simply create tested code, unit tests and execute the tests 
 
 Check out the sections on [annotations](userguide/annotations.md) and [expectations](userguide/expectations.md) to see how to define your tests.  
 
-# Command line
+## Command line
 
 You can use the utPLSQL command line client [utPLSQL-cli](https://github.com/utPLSQL/utPLSQL-cli) to run tests without the need for Oracle Client or any IDE like SQLDeveloper/TOAD etc.
 
@@ -41,7 +41,7 @@ Amongst many benefits they provide ability to:
 Just download the [latest client](https://github.com/utPLSQL/utPLSQL-cli/releases/latest), download Oracle jdbc driver you are good to go.
 See [project readme](https://github.com/utPLSQL/utPLSQL-cli/blob/develop/README.md) for details.  
 
-# Coverage
+## Coverage
 
 If you want to have code coverage gathered on your code , it's best to use `ut_run` to execute your tests with multiple reporters and have both test execution report as well as coverage report saved to a file.
 
