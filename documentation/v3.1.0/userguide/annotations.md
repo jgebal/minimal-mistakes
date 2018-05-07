@@ -6,8 +6,6 @@ sidebar:
   nav: "v3.1.0"
 ---
 
-# Annotations
-
 Annotations are used to configure tests and suites in a declarative way similar to modern OOP languages. This way, test configuration is stored along with the test logic inside the test package.
 No configuration files or tables are needed. The annotation names are based on popular testing frameworks such as JUnit.
 The framework runner searches for all the suitable annotated packages, automatically configures suites, forms the suite hierarchy, executes it and reports results in specified formats.
