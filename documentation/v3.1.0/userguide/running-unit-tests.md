@@ -6,8 +6,6 @@ sidebar:
   nav: "v3.1.0"
 ---
 
-# Running tests
-
 The utPLSQL framework provides two main entry points to run unit tests from within the database: 
 
 - `ut.run` procedures and functions
@@ -16,7 +14,7 @@ The utPLSQL framework provides two main entry points to run unit tests from with
 These two entry points differ in purpose and behavior.
 Most of the time you will want to use `ut.run` as `ut_runner` is designed for API integration and does not output the results to the screen directly.
 
-# Running from CI servers and command line
+## Running from CI servers and command line
 
 The best way to run your tests from CI server or command line is to use the [utPLSQL-cli](https://github.com/utPLSQL/utPLSQL-cli) command line client.
 
@@ -37,7 +35,7 @@ curl -Lk "${DOWNLOAD_URL}" -o utplsql-cli.zip
 unzip -q utplsql-cli.zip
 ```
 
-# ut.run
+## ut.run
 
 The `ut` package contains overloaded `run` procedures and functions.
 The `run` API is designed to be called directly by a developer when using an IDE/SQL console to execute unit tests.
@@ -47,7 +45,7 @@ A single line call is enough to execute a set of tests from one or more schemes.
 The **procedures** execute the specified tests and produce output to DBMS_OUTPUT using the specified reporter.
 The **functions** can only be used in SELECT statements. They execute the specified tests and produce outputs as a pipelined data stream to be consumed by a select statement.
 
-## ut.run procedures
+### ut.run procedures
 
 The examples below illustrate different ways and options to invoke `ut.run` procedures.
 
@@ -121,7 +119,7 @@ Executes all tests from package _HR.TEST_APPLY_BONUS_ and provide outputs to DBM
 
 For details on build-in reporters look at [reporters documentation](reporters.md).
 
-## ut.run functions
+### ut.run functions
 
 The `ut.run` functions provide exactly the same functionality as the `ut.run` procedures. 
 You may use the same sets of parameters with both functions and procedures. 
@@ -133,7 +131,7 @@ Example.
 select * from table(ut.run('hr.test_apply_bonus', ut_xunit_reporter()));
 ```
 
-# ut_runner.run procedures
+## ut_runner.run procedures
 
 The `ut_runner` package provides an API for integrating utPLSQL with other products. Maven, Jenkins, SQL Develper, PL/SQL Developer, TOAD and others can leverage this API to call utPLSQL.
 
