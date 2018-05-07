@@ -8,7 +8,7 @@ sidebar:
 
 The following are best practices we at utPLSQL have learned about PL/SQL and Unit Testing. 
 
-## Test Isolation and Dependency
+### Test Isolation and Dependency
 
  - Tests should not depend on a specific order to run 
  - Tests should not depend on other tests to execute
@@ -16,7 +16,7 @@ The following are best practices we at utPLSQL have learned about PL/SQL and Uni
  - Tests should keep the environment unchanged post execution
 
 
-## Writing tests
+### Writing tests
 
  - Tests should not mimic / duplicate the logic of tested code
  - Tests should contain zero logic (or as close to zero as possible)
@@ -29,22 +29,22 @@ The following are best practices we at utPLSQL have learned about PL/SQL and Uni
  - Tests should be maintained as thoroughly as production code
  - Every test needs to be built so that it can fail, tests that do not fail when needed are useless  
   
-## Gaining value from the tests
+### Gaining value from the tests
  
  - Tests are only valuable if they are executed frequently; ideally with every change to the project code
  - Tests need to run very fast; the slower the tests, the longer you wait. Build tests with performance in mind (do you really need to have 10k rows to run the tests?)
  - Tests that are executed infrequently can quickly become stale and end up adding overhead rather than value. Maintain tests as you would maintain code.
  - Tests that are failing need to be addressed immediately. How can you trust your tests when 139 of 1000 tests are failing for a month? Will you recognise each time that it is still the same 139 tests?  
 
-## Tests are not for production
+### Tests are not for production
 
  Tests will generate and operate on fake data. They might insert, update and delete data. You don't want tests to run on a production database and affect real life data.
 
-## Tests and their relationship to code under test
+### Tests and their relationship to code under test
  -  Tests and the code under test should be in separate packages. This is a fundamental separation of responsibilities.
  -  It is common for test code to be in the same schema as the tested code. This removes the need to manage privileges for the tests. 
 
-## Version Control
+### Version Control
 
 Use a version control system for your code. 
 Don't just trust the database for code storage.
