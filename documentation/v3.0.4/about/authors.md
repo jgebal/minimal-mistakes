@@ -1,3 +1,10 @@
+---
+title: "Authors"
+layout: single
+author_profile: false
+sidebar:
+  nav: "v3.0.4"
+---
 
 ### utPLSQL v3 Major Contributors 
 
