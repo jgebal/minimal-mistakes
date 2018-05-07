@@ -6,11 +6,11 @@ sidebar:
   nav: "v3.1.0"
 ---
 
-# Downloading latest version of utPLSQL
+## Downloading latest version of utPLSQL
 
 To download latest version of utPLSQL from github on both Unix/Linux as well as Windows machines use the below smippets.
 
-## Unix/Linux
+### Unix/Linux
 
 ```bash
 #!/bin/bash
@@ -28,7 +28,7 @@ You may download with a one-liner if that is more convenient.
 curl -LOk $(curl --silent https://api.github.com/repos/utPLSQL/utPLSQL/releases/latest | awk '/browser_download_url/ { print $2 }' | grep ".zip" | sed 's/"//g') 
 ```
 
-## Windows
+### Windows
 
 To run the script on windows you will need [PowerShell 3.0](https://blogs.technet.microsoft.com/heyscriptingguy/2013/06/02/weekend-scripter-install-powershell-3-0-on-windows-7/) or above. 
 You will also need .NET 4.0 Framework or above.
@@ -57,7 +57,7 @@ foreach ($i in $urlList) {
 }
 ```
 
-# Headless installation
+## Headless installation
 
 To install the utPLSQL into a new database schema and grant it to public, execute the script `install_headless.sql` as SYSDBA.
 
@@ -81,7 +81,7 @@ sqlplus sys/sys_pass@db as sysdba @install_headless.sql utp3 my_verySecret_passw
 The script needs to be executed by SYSDBA, in order to grant access to DBMS_LOCK system package.
 
 
-# Recommended Schema
+## Recommended Schema
 It is highly recommended to install utPLSQL in it's own schema. You are free to choose any name for this schema.
 Installing uPLSQL into shared schema is really not recommended as you loose isolation of framework.
 
@@ -103,7 +103,7 @@ The uninstall process will **not** drop profiler tables, as they can potentially
 
 It is up to DBA to maintain the storage of the profiler tables.
 
-# Manual installation procedure
+## Manual installation procedure
 
 ### Creating schema for utPLSQL
 To create the utPLSQL schema and grant all the required privileges execute script `create_utplsql_owner.sql` from the `source` directory with parameters:
@@ -157,7 +157,7 @@ The following tools that support the SQL*Plus commands can be used to run the in
   - [SQLcl](http://www.oracle.com/technetwork/developer-tools/sqlcl/overview/index.html)
   - [Oracle SQL Developer](http://www.oracle.com/technetwork/developer-tools/sql-developer/overview/index.html)
  
-# Additional requirements
+## Additional requirements
 
 In order to use the Code Coverage functionality of utPLSQL, users executing the tests must have the CREATE privilege on the PLSQL code that the coverage is gathered on.
 This is a requirement of [DBMS_PROFILER package](https://docs.oracle.com/cd/E18283_01/appdev.112/e16760/d_profil.htm#i999476).
@@ -165,7 +165,7 @@ This is a requirement of [DBMS_PROFILER package](https://docs.oracle.com/cd/E182
 In practice, user running tests for PLSQL code that he does not own, needs to have CREATE ANY PROCEDURE/CREATE ANY TRIGGER privileges.
 Running code coverage on objects that the user does not own will **not produce any coverage information** without those privileges.
 
-# Uninstalling utPLSQL
+## Uninstalling utPLSQL
 
 To uninstall run `uninstall.sql` and provide `schema_name` where utPLSQL is installed.
 
@@ -185,11 +185,11 @@ The uninstall script does not drop the schema.
 In order for the uninstall to be successful, you need to use the uninstall script that was provided with the exact utPLSQL version installed on your database.
 i.e. the uninstall script provided with version 3.0.1 will probably not work if you want to remove version 3.0.0 from your database.
 
-# Version upgrade
+## Version upgrade
 
 Currently, the only way to upgrade version of utPLSQL v3.0.0 and above is to remove the previous version and install the new version.
 
-# Working with utPLSQL v2
+## Working with utPLSQL v2
 
 If you are using utPLSQL v2, you can still install utPLSQL v3.
 The only requirement is that utPLSQL v3 needs to be installed in a different schema than utPLSQL v2.
