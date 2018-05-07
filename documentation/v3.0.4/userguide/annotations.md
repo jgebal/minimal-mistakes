@@ -1,4 +1,10 @@
-# Annotations
+---
+title: "Annotations"
+layout: single
+author_profile: false
+sidebar:
+  nav: "v3.0.4"
+---
 
 Annotations are used to configure tests and suites in a declarative way similar to modern OOP languages. This way, test configuration is stored along with the test logic inside the test package.
 No configuration files or tables are needed. The annotations names are based on popular testing frameworks such as jUnit.
@@ -19,7 +25,7 @@ If a package specification contains `%suite` annotation, it is treated as a test
 
 Some annotations accept parameters like `%suite`, `%test` and `%displayname`. The parameters for annotations need to be placed in brackets. Values for parameters should be provided without any quotation marks.
 
-# <a name="example"></a>Example of an annotated test package
+## <a name="example"></a>Example of an annotated test package
 
 ```sql
 create or replace package test_pkg is
@@ -66,7 +72,7 @@ create or replace package test_pkg is
 end test_pkg;
 ```
 
-# Supported annotations
+## Supported annotations
 
 | Annotation |Level| Description |
 | --- | --- | --- |
@@ -83,7 +89,7 @@ end test_pkg;
 | `%rollback(<type>)` | Package/procedure | Defines transaction control. Supported values: `auto`(default) - A savepoint is created before invocation of each "before block" is and a rollback to specific savepoint is issued after each "after" block; `manual` - rollback is never issued automatically. Property can be overridden for child element (test in suite) |
 | `%disabled` | Package/procedure | Used to disable a suite or a test. Disabled suites/tests do not get executed, they are however marked and reported as disabled in a test run. |
 
-# Suitepath concept
+## Suitepath concept
 
 It is very likely that the application for which you are going to introduce tests consists of many different packages or procedures/functions. Usually procedures can be logically grouped inside a package, there also might be several logical groups of procedure in a single package or even packages themselves might relate to a common module.
 
@@ -158,7 +164,7 @@ A `%suitepath` can be provided in three ways:
 * [schema]:suite1[.suite2][.suite3]...[.procedure] - execute all tests in all suites from suite1[.suite2][.suite3]...[.procedure] path. If schema is not provided, then the current schema is used. Example: `:all.rooms_tests`
 * [schema.]package[.procedure] - execute all tests in the specified test package. The whole hierarchy of suites in the schema is built before all before/after hooks or part suites for the provided suite package are executed as well. Example: `tests.test_contact.test_last_name_validator` or simply `test_contact.test_last_name_validator` if `tests` is the current schema.
 
-# Using automatic rollbacks in tests
+## Using automatic rollbacks in tests
 
 By default, changes performed by every setup, cleanup and test procedure are isolated by savepoints.
 This solution is suitable for use-cases where the code that is getting tested as well as the unit tests themselves do not use transaction control (commit/rollback) or DDL commands.
@@ -182,7 +188,7 @@ Doing so allows your tests to use the framework's automatic transaction control 
 When you are testing code that performs explicit or implicit commits, you may set the test procedure to run as an autonomous transaction with `pragma autonomous_transaction`.
 Keep in mind that when your tests runs in autonomous transaction it will not see the data prepared in setup procedure unless the setup procedure committed the changes. 
 
-# Order of execution
+## Order of execution
 
 When processing the test suite `test_pkg` defined in [Example of annotated test package](#example), the order of execution will be as follows.
 
@@ -215,7 +221,7 @@ When processing the test suite `test_pkg` defined in [Example of annotated test 
 
 ```
 
-# Annotation cache
+## Annotation cache
 
 utPLSQL needs to scan sources of package specifications to identify and parse annotations.
 To improve framework startup time, specially when dealing with database users owning large amount of packages the framework has build-in persistent cache for annotations.
