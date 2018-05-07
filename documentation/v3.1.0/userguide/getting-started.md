@@ -6,14 +6,14 @@ sidebar:
   nav: "v3.1.0"
 ---
 
-# Getting started with TDD and utPLSQL
+## Getting started with TDD and utPLSQL
 
 utPLSQL is designed in a way that allows you to follow 
 [Test Driven Development (TDD)](https://en.wikipedia.org/wiki/Test-driven_development) software development process.
 
 Below is an example of building a simple function with TDD.
 
-# Gather requirements
+## Gather requirements
 
 We have a requirement to build a function that will return a substring of a string that is passed to the function.
 
@@ -23,7 +23,7 @@ The function should accept three parameters:
 - start_position
 - end_position
 
-# Create a test 
+## Create a test 
 
 We will start from the bare minimum and move step by step, executing tests every time we make minimal progress.
 This way, we assure we don't jump ahead too much and produce code that is untested or untestable.
@@ -116,7 +116,7 @@ Finished in .415851 seconds
 Our test is failing as the test suite package body is invalid.
 Looks like we need to define the function we want to test.
 
-# Implement code to fulfill the requirement
+## Implement code to fulfill the requirement
 
 ## Define tested function 
 
@@ -175,14 +175,14 @@ Finished in .006077 seconds
 
 So our test is now passing, great!
 
-# Refactor
+## Refactor
 
 Once our tests are passing, we can safely refactor (restructure) the code as we have a safety harness 
 in place to ensure that after the restructuring and cleanup of the code, everything is still working.
 
 One thing worth mentioning is that refactoring of tests is as important as refactoring of code. Maintainability of both is equally important.
 
-# Further requirements
+## Further requirements
 
 It seems like our work is done. We have a function that returns a substring from start position to end position.
 As we move through the process of adding tests, it's very important to think about edge cases.
@@ -314,7 +314,7 @@ Finished in .013739 seconds
 2 tests, 0 failed, 0 errored, 0 disabled, 0 warning(s)
 ```
 
-# Remaining requirements
+## Remaining requirements
 
 You may continue on with the remaining edge cases from here.
 
