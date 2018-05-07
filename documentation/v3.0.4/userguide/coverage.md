@@ -1,4 +1,11 @@
-# Coverage
+---
+title: "Coverage"
+layout: single
+author_profile: false
+sidebar:
+  nav: "v3.0.4"
+---
+
 utPLSQL comes with build-in coverage reporting engine. The code coverage reporting is based off DBMS_PROFILER package. Code coverage is gathered for the following source types:
 * package bodies
 * type bodies
