@@ -54,7 +54,7 @@ v3.1.0:
   - title: "Cheat Sheet"
     url: /documentation/v3.1.0/cheat_sheet/
     
- # v3.1.0 release doc links
+ # v3.0.4 release doc links
 v3.0.4:
   - title: "Introduction"
     url: /documentation/v3.0.4/
@@ -78,8 +78,6 @@ v3.0.4:
         url: /documentation/v3.0.4/userguide/annotations/
       - title: "Expectations"
         url: /documentation/v3.0.4/userguide/expectations/
-      - title: "Advanced data comparison"
-        url: /documentation/v3.0.4/userguide/advanced_data_comparison/
       - title: "Running unit tests"
         url: /documentation/v3.0.4/userguide/running-unit-tests/
       - title: "Testing best practices"
