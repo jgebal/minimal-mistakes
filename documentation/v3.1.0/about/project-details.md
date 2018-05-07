@@ -6,8 +6,6 @@ sidebar:
   nav: "v3.1.0"
 ---
 
-# utPLSQL Project Details
-
 [![chat](http://img.shields.io/badge/GitHub_Project-Active-blue.svg)](https://github.com/utPLSQL/utPLSQL)
 [![license](http://img.shields.io/badge/license-apache%202.0-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)
 [![chat](http://img.shields.io/badge/chat-slack-blue.svg)](http://utplsql-slack-invite.herokuapp.com/)
