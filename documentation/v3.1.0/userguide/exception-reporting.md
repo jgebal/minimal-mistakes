@@ -6,8 +6,6 @@ sidebar:
   nav: "v3.1.0"
 ---
 
-# Exception handling and reporting
-
 The utPLSQL is responsible for handling exceptions wherever they occur in the test run. utPLSQL is trapping most of the exceptions so that the test execution is not affected by individual tests or test packages throwing an exception.
 The framework provides a full stacktrace for every exception that was thrown. The stacktrace is clean and does not include any utPLSQL library calls in it.
 To achieve rerunability, the package state invalidation exceptions (ORA-04068, ORA-04061) are not handled and test execution will be interrupted if such exceptions are encountered. This is because of how Oracle behaves on those exceptions.
