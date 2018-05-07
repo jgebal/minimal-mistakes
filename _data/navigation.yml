@@ -52,7 +52,50 @@ v3.1.0:
       - title: "Code coverage"
         url: /documentation/v3.1.0/userguide/coverage/  
   - title: "Cheat Sheet"
-    url: /documentation/v3.1.0/documentation/v3.1.0/cheat_sheet/
+    url: /documentation/v3.1.0/cheat_sheet/
+    
+ # v3.1.0 release doc links
+v3.0.4:
+  - title: "Introduction"
+    url: /documentation/v3.0.4/
+  - title: "About"
+    children:
+      - title: "Project details"
+        url: /documentation/v3.0.4/about/project-details/
+      - title: "License"
+        url: /documentation/v3.0.4/about/license/
+      - title: "Support"
+        url: /documentation/v3.0.4/about/support/
+      - title: "Authors"
+        url: /documentation/v3.0.4/about/authors/
+  - title: "User guide"
+    children:
+      - title: "Installation"
+        url: /documentation/v3.0.4/userguide/install/
+      - title: "Getting started"
+        url: /documentation/v3.0.4/userguide/getting-started/
+      - title: "Annotations"
+        url: /documentation/v3.0.4/userguide/annotations/
+      - title: "Expectations"
+        url: /documentation/v3.0.4/userguide/expectations/
+      - title: "Advanced data comparison"
+        url: /documentation/v3.0.4/userguide/advanced_data_comparison/
+      - title: "Running unit tests"
+        url: /documentation/v3.0.4/userguide/running-unit-tests/
+      - title: "Testing best practices"
+        url: /documentation/v3.0.4/userguide/best-practices/
+      - title: "Upgrade utPLSQL"
+        url: /documentation/v3.0.4/userguide/upgrade/
+  - title: "Reporting"
+    children:
+      - title: "Using reporters"
+        url: /documentation/v3.0.4/userguide/reporters/
+      - title: "Reporting errors"
+        url: /documentation/v3.0.4/userguide/exception-reporting/
+      - title: "Code coverage"
+        url: /documentation/v3.0.4/userguide/coverage/  
+  - title: "Cheat Sheet"
+    url: /documentation/v3.0.4/cheat_sheet/
 
 # documentation links
 utPLSQL:
