@@ -21,9 +21,9 @@ title_separator          : "-"
 name                     : utPLSQL
 description              : > # this means to ignore newlines until "baseurl:"
                            utPLSQL - Unit Testing Framework for Oracle PL/SQL
-url                      : "https://utPLSQL.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://jgebal.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "utPLSQL/utPLSQL.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "jgebal/minimal-mistakes" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 breadcrumbs              : true (default)
 words_per_minute         : 200
