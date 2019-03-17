@@ -11,6 +11,90 @@ main:
   - title: "Contributing"
     url: /contributing/
         
+develop:
+  - title: "Introduction"
+    url: /documentation/develop/
+  - title: "About"
+    children:
+      - title: "Project details"
+        url: /documentation/develop/about/project-details/
+      - title: "License"
+        url: /documentation/develop/about/license/
+      - title: "Support"
+        url: /documentation/develop/about/support/
+      - title: "Authors"
+        url: /documentation/develop/about/authors/
+  - title: "User guide"
+    children:
+      - title: "Installation"
+        url: /documentation/develop/userguide/install/
+      - title: "Getting started"
+        url: /documentation/develop/userguide/getting-started/
+      - title: "Annotations"
+        url: /documentation/develop/userguide/annotations/
+      - title: "Expectations"
+        url: /documentation/develop/userguide/expectations/
+      - title: "Advanced data comparison"
+        url: /documentation/develop/userguide/advanced_data_comparison/
+      - title: "Running unit tests"
+        url: /documentation/develop/userguide/running-unit-tests/
+      - title: "Testing best practices"
+        url: /documentation/develop/userguide/best-practices/
+      - title: "Upgrade utPLSQL"
+        url: /documentation/develop/userguide/upgrade/
+  - title: "Reporting"
+    children:
+      - title: "Using reporters"
+        url: /documentation/develop/userguide/reporters/
+      - title: "Reporting errors"
+        url: /documentation/develop/userguide/exception-reporting/
+      - title: "Code coverage"
+        url: /documentation/develop/userguide/coverage/
+  - title: "Cheat Sheet"
+    url: /documentation/develop/cheat_sheet/
+
+latest:
+  - title: "Introduction"
+    url: /documentation/latest/
+  - title: "About"
+    children:
+      - title: "Project details"
+        url: /documentation/latest/about/project-details/
+      - title: "License"
+        url: /documentation/latest/about/license/
+      - title: "Support"
+        url: /documentation/latest/about/support/
+      - title: "Authors"
+        url: /documentation/latest/about/authors/
+  - title: "User guide"
+    children:
+      - title: "Installation"
+        url: /documentation/latest/userguide/install/
+      - title: "Getting started"
+        url: /documentation/latest/userguide/getting-started/
+      - title: "Annotations"
+        url: /documentation/latest/userguide/annotations/
+      - title: "Expectations"
+        url: /documentation/latest/userguide/expectations/
+      - title: "Advanced data comparison"
+        url: /documentation/latest/userguide/advanced_data_comparison/
+      - title: "Running unit tests"
+        url: /documentation/latest/userguide/running-unit-tests/
+      - title: "Testing best practices"
+        url: /documentation/latest/userguide/best-practices/
+      - title: "Upgrade utPLSQL"
+        url: /documentation/latest/userguide/upgrade/
+  - title: "Reporting"
+    children:
+      - title: "Using reporters"
+        url: /documentation/latest/userguide/reporters/
+      - title: "Reporting errors"
+        url: /documentation/latest/userguide/exception-reporting/
+      - title: "Code coverage"
+        url: /documentation/latest/userguide/coverage/
+  - title: "Cheat Sheet"
+    url: /documentation/latest/cheat_sheet/
+
 # v3.1.0 release doc links
 v3.1.0:
   - title: "Introduction"
@@ -96,25 +180,25 @@ v3.0.4:
     url: /documentation/v3.0.4/cheat_sheet/
 
 # documentation links
-utPLSQL:
-- title: "develop"
-  url: /documentation/develop/
-- title: "latest"
-  url: /documentation/latest/
-- title: "v3.1.0"
-  url: /documentation/v3.1.0/
-- title: "v3.0.4"
-  url: /documentation/v3.0.4/
-- title: "v3.0.3"
-  url: /documentation/v3.0.3/
-- title: "v3.0.2"
-  url: /documentation/v3.0.2/
-- title: "v3.0.1"
-  url: /documentation/v3.0.1/
-- title: "v3.0.0"
-  url: /documentation/v3.0.0/        
-- title: "v3.0.0-beta"
-  url: /documentation/v3.0.0-beta/
-- title: "v2.3.1"
-  url: /documentation/v2.3.1/
-  
+documentation:
+  - title: "develop"
+    url: /documentation/develop/
+  - title: "latest"
+    url: /documentation/latest/
+  - title: "v3.1.0"
+    url: /documentation/v3.1.0/
+  - title: "v3.0.4"
+    url: /documentation/v3.0.4/
+  - title: "v3.0.3"
+    url: /documentation/v3.0.3/
+  - title: "v3.0.2"
+    url: /documentation/v3.0.2/
+  - title: "v3.0.1"
+    url: /documentation/v3.0.1/
+  - title: "v3.0.0"
+    url: /documentation/v3.0.0/
+  - title: "v3.0.0-beta"
+    url: /documentation/v3.0.0-beta/
+  - title: "v2.3.1"
+    url: /documentation/v2.3.1/
+
